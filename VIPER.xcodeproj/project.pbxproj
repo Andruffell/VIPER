@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C274B21924536EEA00DACDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B21824536EEA00DACDCF /* AppDelegate.swift */; };
-		C274B21B24536EEA00DACDCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B21A24536EEA00DACDCF /* SceneDelegate.swift */; };
-		C274B21D24536EEA00DACDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B21C24536EEA00DACDCF /* ViewController.swift */; };
 		C274B22024536EEA00DACDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C274B21E24536EEA00DACDCF /* Main.storyboard */; };
 		C274B22224536EEC00DACDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C274B22124536EEC00DACDCF /* Assets.xcassets */; };
 		C274B22524536EEC00DACDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C274B22324536EEC00DACDCF /* LaunchScreen.storyboard */; };
 		C274B23024536EEC00DACDCF /* VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B22F24536EEC00DACDCF /* VIPERTests.swift */; };
 		C274B23B24536EEC00DACDCF /* VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B23A24536EEC00DACDCF /* VIPERUITests.swift */; };
+		C274B24A24537D8B00DACDCF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B24924537D8B00DACDCF /* MainViewController.swift */; };
+		C274B24D24537EF000DACDCF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B24C24537EF000DACDCF /* Coordinator.swift */; };
+		C274B24F24537F2000DACDCF /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B24E24537F2000DACDCF /* CoordinatorProtocol.swift */; };
+		C274B25324538C7600DACDCF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B25224538C7600DACDCF /* MainPresenter.swift */; };
+		C274B25524538CB600DACDCF /* MainPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B25424538CB600DACDCF /* MainPresenterProtocol.swift */; };
+		C274B25824538E7500DACDCF /* MainViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B25724538E7500DACDCF /* MainViewControllerProtocol.swift */; };
+		C274B25A2453942F00DACDCF /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274B2592453942F00DACDCF /* Storyboarded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,6 @@
 /* Begin PBXFileReference section */
 		C274B21524536EEA00DACDCF /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C274B21824536EEA00DACDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C274B21A24536EEA00DACDCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C274B21C24536EEA00DACDCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C274B21F24536EEA00DACDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C274B22124536EEC00DACDCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C274B22424536EEC00DACDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		C274B23624536EEC00DACDCF /* VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C274B23A24536EEC00DACDCF /* VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERUITests.swift; sourceTree = "<group>"; };
 		C274B23C24536EEC00DACDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C274B24924537D8B00DACDCF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C274B24C24537EF000DACDCF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C274B24E24537F2000DACDCF /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		C274B25224538C7600DACDCF /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		C274B25424538CB600DACDCF /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterProtocol.swift; sourceTree = "<group>"; };
+		C274B25724538E7500DACDCF /* MainViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerProtocol.swift; sourceTree = "<group>"; };
+		C274B2592453942F00DACDCF /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,11 @@
 		C274B21724536EEA00DACDCF /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				C274B25124538C6900DACDCF /* Presenter */,
+				C274B25024537F2B00DACDCF /* Protocol */,
+				C274B24B24537EE100DACDCF /* Router */,
+				C274B24824537D3E00DACDCF /* View */,
 				C274B21824536EEA00DACDCF /* AppDelegate.swift */,
-				C274B21A24536EEA00DACDCF /* SceneDelegate.swift */,
-				C274B21C24536EEA00DACDCF /* ViewController.swift */,
 				C274B21E24536EEA00DACDCF /* Main.storyboard */,
 				C274B22124536EEC00DACDCF /* Assets.xcassets */,
 				C274B22324536EEC00DACDCF /* LaunchScreen.storyboard */,
@@ -126,6 +138,49 @@
 				C274B23C24536EEC00DACDCF /* Info.plist */,
 			);
 			path = VIPERUITests;
+			sourceTree = "<group>";
+		};
+		C274B24824537D3E00DACDCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C274B24924537D8B00DACDCF /* MainViewController.swift */,
+				C274B25724538E7500DACDCF /* MainViewControllerProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C274B24B24537EE100DACDCF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C274B24C24537EF000DACDCF /* Coordinator.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C274B25024537F2B00DACDCF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C274B24E24537F2000DACDCF /* CoordinatorProtocol.swift */,
+				C274B2592453942F00DACDCF /* Storyboarded.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C274B25124538C6900DACDCF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C274B25624538D9B00DACDCF /* MainPresenter */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C274B25624538D9B00DACDCF /* MainPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				C274B25424538CB600DACDCF /* MainPresenterProtocol.swift */,
+				C274B25224538C7600DACDCF /* MainPresenter.swift */,
+			);
+			path = MainPresenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C274B21D24536EEA00DACDCF /* ViewController.swift in Sources */,
+				C274B24A24537D8B00DACDCF /* MainViewController.swift in Sources */,
 				C274B21924536EEA00DACDCF /* AppDelegate.swift in Sources */,
-				C274B21B24536EEA00DACDCF /* SceneDelegate.swift in Sources */,
+				C274B25524538CB600DACDCF /* MainPresenterProtocol.swift in Sources */,
+				C274B24F24537F2000DACDCF /* CoordinatorProtocol.swift in Sources */,
+				C274B25824538E7500DACDCF /* MainViewControllerProtocol.swift in Sources */,
+				C274B24D24537EF000DACDCF /* Coordinator.swift in Sources */,
+				C274B25324538C7600DACDCF /* MainPresenter.swift in Sources */,
+				C274B25A2453942F00DACDCF /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GYMR95E32S;
 				INFOPLIST_FILE = VIPER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = andreavignali.VIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,6 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GYMR95E32S;
 				INFOPLIST_FILE = VIPER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = andreavignali.VIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
